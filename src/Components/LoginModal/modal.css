@@ -1,0 +1,9 @@
+.section-wrapper {
+    display: grid;
+    grid-template: "nav main";
+    grid-template-columns: 1fr 7fr;
+  }
+
+  .login-modal {
+      grid-area: main;
+  }

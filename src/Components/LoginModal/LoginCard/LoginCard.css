@@ -1,0 +1,63 @@
+.section-wrapper {
+  display: grid;
+  grid-template: "nav main";
+  grid-template-columns: 1fr 7fr;
+}
+
+.login-modal {
+  grid-area: main;
+  margin: auto;
+}
+
+.login-wrapper {
+  display: grid;
+  grid-template: "left center right";
+  grid-template-columns: 1fr 2.5fr 2fr;
+  align-items: center;
+}
+
+.left-card {
+  grid-area: left;
+  background-color: white;
+  height: 500px;
+  border-radius: 5px 0 0 5px;
+}
+.center-card {
+  grid-area: center;
+  background-color: #1a33d5;
+  color: white;
+  height: 600px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 5px rgba(31, 73, 125, 0.8);
+}
+
+.right-card {
+  grid-area: right;
+  background-color: white;
+  height: 500px;
+  border-radius: 0 5px 5px 0;
+}
+
+.welcome-title {
+  font-family: "Jost", sans-serif;
+  margin-bottom: 5px;
+}
+
+.welcome-desc {
+  margin: 0px;
+  font-size: larger;
+}
+
+.card-info {
+  margin: 200px 0 0 40px;
+}
+
+.social-icons {
+    padding: 100px 0 0 40px;
+}
+
+.fa {
+  color: white;
+  text-decoration: none;
+  padding: 0 8px;
+}
